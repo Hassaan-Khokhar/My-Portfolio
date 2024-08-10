@@ -1,0 +1,28 @@
+.zoom{
+    transition: all 0.3s;
+}
+.zoom:hover{
+    transform: scale(1.15);
+}
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #151515; /* Light grey background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #004BA7; /* Custom color */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #003377; /* Darker shade on hover */
+}
+
+/* Firefox Scrollbar Customization */
+html {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #004BA7 #151515; /* Custom thumb color and track color */
+}
