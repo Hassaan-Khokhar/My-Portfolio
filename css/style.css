@@ -27,12 +27,6 @@ html {
     scrollbar-color: #004BA7 #151515; /* Custom thumb color and track color */
 }
 
-/* Firefox Scrollbar Customization */
-html {
-    scrollbar-width: thin; /* Thin scrollbar */
-    scrollbar-color: #004BA7 #151515; /* Custom thumb color and track color */
-}
-
 /* CSS For Footer Starts here */
 
 footer {
