@@ -26,3 +26,49 @@ html {
     scrollbar-width: thin; /* Thin scrollbar */
     scrollbar-color: #004BA7 #151515; /* Custom thumb color and track color */
 }
+
+/* Firefox Scrollbar Customization */
+html {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #004BA7 #151515; /* Custom thumb color and track color */
+}
+
+/* CSS For Footer Starts here */
+
+footer {
+    background-color: #181818;
+    padding: 20px 0;
+}
+
+footer h5 {
+    color: #3a84fc;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+    transition: border-color 0.3s;
+}
+
+footer a:hover {
+    border-bottom: 2px solid #3a84fc;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
