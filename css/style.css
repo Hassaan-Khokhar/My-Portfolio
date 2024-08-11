@@ -3,6 +3,7 @@
 }
 .zoom:hover{
     transform: scale(1.15);
+    box-shadow: 1px 1px 10px #1791C8;
 }
 ::-webkit-scrollbar {
     width: 12px; /* Width of the scrollbar */
@@ -46,10 +47,11 @@ footer a {
     padding-bottom: 2px;
     transition: border-color 0.3s;
 }
-
 footer a:hover {
     border-bottom: 2px solid #3a84fc;
 }
+
+
 
 .footer-icons a {
     margin: 0 10px;
@@ -65,4 +67,8 @@ footer a:hover {
     font-size: 14px;
     color: #777;
     text-align: center;
+}
+/* Shadow starts */
+.customshadow{
+    box-shadow: 1px 1px 20px #1791C8;
 }
