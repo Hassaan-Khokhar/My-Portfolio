@@ -72,3 +72,73 @@ footer a:hover {
 .customshadow{
     box-shadow: 1px 1px 20px #1791C8;
 }
+
+/* Base styles for cards */
+/* Base styles for cards */
+.card {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+/* Base styles for cards */
+.card {
+    opacity: 0;
+    transform: translateY(50px); /* Default transform for all cards */
+    transition: opacity 1.5s ease, transform 1.5s ease; /* Increased transition duration */
+}
+
+/* Different animations for each card */
+
+/* Card 1: Pop-up from the bottom */
+.card:nth-child(1) {
+    transition-delay: 0.3s; /* Increased delay */
+    transform: translateY(50px); /* Starting transform */
+}
+
+.card:nth-child(1).show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Card 2: Pop-up from the left */
+.card:nth-child(2) {
+    transition-delay: 0.6s; /* Increased delay */
+    transform: translateX(-50px); /* Starting transform */
+}
+
+.card:nth-child(2).show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Card 3: Pop-up with scale effect */
+.card:nth-child(3) {
+    transition-delay: 0.9s; /* Increased delay */
+    transform: scale(0.8); /* Starting transform */
+}
+
+.card:nth-child(3).show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Card 4: Pop-up from the top */
+.card:nth-child(4) {
+    transition-delay: 1.2s; /* Increased delay */
+    transform: translateY(-50px); /* Starting transform */
+}
+
+.card:nth-child(4).show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Zoom effect on hover for all cards */
+.card.zoom {
+    transition: all 0.3s;
+}
+
+.card.zoom:hover {
+    transform: scale(1.15);
+    box-shadow: 1px 1px 10px #1791C8;
+}
