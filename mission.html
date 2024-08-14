@@ -16,6 +16,8 @@
     <!-- Navbar starts from here -->
     <nav class="navbar navbar-expand-lg" style="background-color: #151515; ">
         <div class="container-fluid">
+            <button class="btn navbar-toggler-icon" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></button>
             <a class="navbar-brand" href="index.html"><img src="images/Logo.png" width="70px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -24,7 +26,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                   
+
                     <li class="nav-item">
                         <a class="nav-link text-secondary" href="about.html">About</a>
                     </li>
@@ -65,6 +67,8 @@
                 dedication to pushing the boundaries of what's possible in the tech world. Join me on this journey as I
                 explore new horizons and contribute to the ever-evolving field of technology.</p>
         </div>
+
+
     </div>
 
 
@@ -73,7 +77,38 @@
 
 
 
+        <!-- Offcanvas -->
+        <div class="offcanvas offcanvas-start" style="background-color: #151515; width: 20%;" data-bs-scroll="true"
+        tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <!-- Offcanvas Header with Custom Close Button -->
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-light" id="offcanvasMenuLabel">Menu</h5>
+            <button type="button" class="btn-close custom-close-btn" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
 
+        <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="mission.html">Mission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="education.html">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="projects.html">Projects</a>
+                </li>
+
+
+
+            </ul>
+        </div>
+    </div>
+    
 
 
 
